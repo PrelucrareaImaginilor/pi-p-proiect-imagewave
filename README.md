@@ -1,7 +1,7 @@
 _______________________________________ _ANALIZA LITERATURII DE SPECIALITATE_ ____________________________________________________
 
 
-Lucrare nr 1:
+🔸**Lucrare nr 1**:
 
 
  **Autori**: Qiaochu ZHAO, Ittetsu TANIGUCHI, Takao ONOYE
@@ -18,7 +18,8 @@ Lucrare nr 1:
  
  **Comentarii suplimentare**: Future work includes adoption of other moving methodology in the predictive step and verifying the proposed method using image sequences with different blown pressures as well
 
- Lucrare nr 2:
+
+ 🔸Lucrare nr 2:
  
 
  **Autori**: Sumit K. Chatterjee, Sravan K. Vittapu
@@ -36,7 +37,7 @@ Lucrare nr 1:
  **Comentarii suplimentare**: Future work on this algorithm will lead to its hardware implementation for low power video compression applications.
  
 
-Lucrare nr 3:
+🔸Lucrare nr 3:
 
 
  **Autori**: Wenjuan Lu , Huiting Ma , and Daxing Zeng
@@ -56,7 +57,7 @@ Lucrare nr 3:
  **Limitari**: Inadequate number of experimental subjects
  
 
-Lucrare nr 4:
+🔸Lucrare nr 4:
 
 
  **Autori**: Chang Sun, Wenpeng Ren, Jia Su*, Yong Guan
@@ -76,7 +77,7 @@ Lucrare nr 4:
  **Limitari**:Small quality loss
  
 
-Lucrare nr 5:
+🔸Lucrare nr 5:
 
 
  **Autori**: Qinke Yang, Chenming Li, Yuan Li
