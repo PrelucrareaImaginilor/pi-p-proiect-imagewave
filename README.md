@@ -1,10 +1,9 @@
-1. **Autori**: Qiaochu ZHAO, Ittetsu TANIGUCHI, Takao ONOYE
-   **An**: 2020
-   **Titlul proiectului/articolului**: A template-free object motion estimation method for industrial vision system in aligning machine
-   **Aplicatie/Domeniu**: Industrial aligning machine
-   **Tenologii utilizate**: Intel Xeon CPU
-   **Metodologie/Abordare**: Magic Line Algorithm, Edge Extraction Algorithm
-   **Comentarii suplimentare**: Future work includes adoption of other moving methodology in the predictive step and verifying the proposed method using image sequences with different blown pressures as well
+1. **Autori**: Qiaochu ZHAO, Ittetsu TANIGUCHI, Takao ONOYE	**An**: 2020
+   	**Titlul proiectului/articolului**: A template-free object motion estimation method for industrial vision system in aligning machine
+   	**Aplicatie/Domeniu**: Industrial aligning machine
+   	**Tenologii utilizate**: Intel Xeon CPU
+   	**Metodologie/Abordare**: Magic Line Algorithm, Edge Extraction Algorithm
+   	**Comentarii suplimentare**: Future work includes adoption of other moving methodology in the predictive step and verifying the proposed method using image sequences with different blown pressures as well
    
 3. **Autori**: Sumit K. Chatterjee, Sravan K. Vittapu
    **An**: 2019
@@ -28,7 +27,7 @@
    **Titlul proiectului/articolului**: Fast Motion Estimation Method for Self-driving Video
    **Aplicatie/Domeniu**: Self-driving cars, video processing, video compression
    **Tehnologii utilizate**: High Efficiency Video Coding (HEVC), Motion estimation algorithms
-   **Metodologie/Abordare**: DFMD (Fast Prediction Mode Selection), DFMVP (Fast Motion Vector
+   **Metodologie/Abordare**: DFMD (Fast Prediction Mode Selection), DFMVP (Fast Motion Vector)
    **Rezultate**:Reduce the encoding time by 30%
    **Limitari**:Small quality loss
 
