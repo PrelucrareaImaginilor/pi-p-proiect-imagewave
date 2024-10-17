@@ -6,7 +6,7 @@
    **Metodologie/Abordare**: Magic Line Algorithm, Edge Extraction Algorithm
    **Comentarii suplimentare**: Future work includes adoption of other moving methodology in the predictive step and verifying the proposed method using image sequences with different blown pressures as well
    
-2. **Autori**: Sumit K. Chatterjee, Sravan K. Vittapu
+3. **Autori**: Sumit K. Chatterjee, Sravan K. Vittapu
    **An**: 2019
    **Titlul proiectului/articolului**: An Efficient Motion Estimation Algorithm for Mobile Video Applications
    **Aplicatie/Domeniu**: Video compression
@@ -14,7 +14,7 @@
    **Rezultate**:Average PSNR: 26.90%
    **Comentarii suplimentare**: Future work on this algorithm will lead to its hardware implementation for low power video compression applications.
 
-3. **Autori**: Wenjuan Lu , Huiting Ma , and Daxing Zeng
+4. **Autori**: Wenjuan Lu , Huiting Ma , and Daxing Zeng
    **An**: 2024
    **Titlul proiectului/articolului**: Performance of a Novel Muscle Synergy Approach for Continuous Motion Estimation on Untrained Motion
    **Aplicatie/Domeniu**: Human- robot interaction
@@ -23,7 +23,7 @@
    **Rezultate**: Highest prediction accuracy of 96.3% 
    **Limitari**: Inadequate number of experimental subjects
 
-4. **Autori**: Chang Sun, Wenpeng Ren, Jia Su*, Yong Guan
+5. **Autori**: Chang Sun, Wenpeng Ren, Jia Su*, Yong Guan
    **An**: 2019
    **Titlul proiectului/articolului**: Fast Motion Estimation Method for Self-driving Video
    **Aplicatie/Domeniu**: Self-driving cars, video processing, video compression
@@ -32,7 +32,7 @@
    **Rezultate**:Reduce the encoding time by 30%
    **Limitari**:Small quality loss
 
-5. **Autori**: Qinke Yang, Chenming Li, Yuan Li
+6. **Autori**: Qinke Yang, Chenming Li, Yuan Li
    **An**: 2022
    **Titlul proiectului/articolului**: Human Motion Monitoring and Estimation based on Optical Measurement
    **Aplicatie/Domeniu**: Medical, records and analyzes the changes of the main joint angles of the human body
