@@ -1,8 +1,11 @@
-_______________________________________ _ANALIZA LITERATURII DE SPECIALITATE_ ____________________________________________________
+**ESTIMAREA ADANCIMII IMAGINILOR FOLOSIND TEHNICI STEREO SI RECTIFICARE A IMAGINILOR
+**
 
+ANALIZA LITERATURII DE SPECIALITATE
 
-🔸**Lucrare nr 1**:
-
+| Nr. | Autor/ An | Titlul articolului/proiectului | Aplicatie/Domeniu | Tehnologii utilizate | Metodologie/Abordare | Rezultate | Limitari |
+|---|---|---|---|---|---|---|---|
+|1|Qiaochu ZHAO, Ittetsu TANIGUCHI, Takao ONOYE / 2020 |A template-free object motion estimation method for industrial vision system in aligning machine|Industrial aligning machine|Intel Xeon CPU|Magic Line Algorithm, Edge Extraction Algorithm|
 
  **Autori**: Qiaochu ZHAO, Ittetsu TANIGUCHI, Takao ONOYE
  
