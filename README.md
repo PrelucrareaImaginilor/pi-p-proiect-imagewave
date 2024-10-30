@@ -12,7 +12,7 @@ ESTIMAREA ADANCIMII IMAGINILOR FOLOSIND TEHNICI STEREO SI RECTIFICARE A IMAGINIL
 
 **SCHEMA BLOC A PROIECTULUI**
 
-![]([http://url/to/img.png](https://cdn.discordapp.com/attachments/1301233086591143957/1301246098332975184/schemabloc.jpg?ex=6723c75d&is=672275dd&hm=e20793c75652886798a961a0065467f274168f5ca3aaf671c5822a6957762310&))
+![schemabloc](https://github.com/user-attachments/assets/c57bec87-b6f8-4d8a-b83f-9af64136048a)
 
 **EXPLICATII**
 
