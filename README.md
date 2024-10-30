@@ -1,6 +1,6 @@
-ESTIMAREA ADANCIMII IMAGINILOR FOLOSIND TEHNICI STEREO SI RECTIFICARE A IMAGINILOR
+***ESTIMAREA ADANCIMII IMAGINILOR FOLOSIND TEHNICI STEREO SI RECTIFICARE A IMAGINILOR***
 
-1.Analiza literaturii de specialitate
+**ANALIZA LITERATURII DE SPECIALITATE**
 
 | Nr. | Autor/ An | Titlul articolului/proiectului | Aplicatie/Domeniu | Tehnologii utilizate | Metodologie/Abordare | Rezultate | Limitari |
 |---|---|---|---|---|---|---|---|
