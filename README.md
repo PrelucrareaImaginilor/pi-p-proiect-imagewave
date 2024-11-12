@@ -15,13 +15,14 @@
 
 **SCHEMA BLOC A PROIECTULUI**
 
-![schemabloc](https://github.com/user-attachments/assets/c57bec87-b6f8-4d8a-b83f-9af64136048a)
+![schema bloc](https://github.com/user-attachments/assets/af99111e-cd91-4e2b-bdd0-862181e0c2b9)
 
 **EXPLICATII**
 
-1. Achiziția seturilor de date stereo, care conțin imagini și adnotări de adâncime. Aceste date sunt esențiale pentru a antrena și testa algoritmii de estimare a adâncimii. Seturile de date pot include KITTI, Middlebury, ETH3D etc.
-2. Alinierea imaginilor astfel încât liniile orizontale din scena reală să fie păstrate orizontale în ambele imagini. Rectificarea facilitează identificarea punctelor corespondente, permițând calculul precis al disparității.
-3. Identificarea punctelor corespondente între cele două imagini. Pentru fiecare pixel din imaginea stângă se caută pixelul corespunzător din imaginea dreaptă, rezultând harta de disparitate, care reprezintă diferențele de poziție ale punctelor între cele două imagini.
-4. Generarea hărții de disparitate pe baza datelor de stereo matching. Această hartă oferă informații despre distanțele relative dintre puncte, dar nu încă adâncimea în sine.
-5. Conversia hărții de disparitate într-o hartă de adâncime folosind formula de adâncime. Aceasta implică utilizarea ecuației adâncimii pentru a converti valorile de disparitate în adâncimi reale.
-6. Afișarea și interpretarea hărții de adâncime rezultată. Acest modul poate include filtre pentru a îmbunătăți claritatea și acuratețea hărții sau evaluarea acesteia comparativ cu datele ground trut (dacă sunt disponibile) pentru a calcula erorile de adâncime.
+1.Daca imaginile stereo sunt color,conversia acestora in alb-negru poate reduce complexitatea, utilizarea unor filtre pentru a reduce zgomotul ce poate afecta calitatea detectarii miscarii si ajustarea valorilor de intensitate pentru a avea o imagine mai uniforma si a elimina efectele cauzate de variatii in iluminare
+2. Extragere perechi de cadre stereo si alinierea punctelor corespondente pe linnii orizontale, calculul disparitatii si adancimea pentru fiecare punct.Identificarea punctelor corespondente între cele două imagini. Pentru fiecare pixel din imaginea stângă se caută pixelul corespunzător din imaginea dreaptă, rezultând harta de disparitate, care reprezintă diferențele de poziție ale punctelor între cele două imagini.
+3. Calcul optical flow pentru a estima miscarea intre cadre consecutive
+4. Combinarea datelor obtinute prin disparitate si optical low pentru a determina miscarea 3D a obiectelor in scena
+5. Aplicarea filtrelor de netezire pentru a elimina variatiile de miscare nejustificate si zgomotul de calcul 
+6. Segmentarea obiectelor care se misca in scena
+7. Reprezentare vizuala a miscarii prin sageti vectoriale sau harti de culori pentru a verifica acuratetea algoritmului
