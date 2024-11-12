@@ -16,13 +16,11 @@
 **SCHEMA BLOC A PROIECTULUI**
 
 ![schema bloc](https://github.com/user-attachments/assets/af99111e-cd91-4e2b-bdd0-862181e0c2b9)
-
 **EXPLICATII**
-
-1.Daca imaginile stereo sunt color,conversia acestora in alb-negru poate reduce complexitatea, utilizarea unor filtre pentru a reduce zgomotul ce poate afecta calitatea detectarii miscarii si ajustarea valorilor de intensitate pentru a avea o imagine mai uniforma si a elimina efectele cauzate de variatii in iluminare
+1. Daca imaginile stereo sunt color,conversia acestora in alb-negru poate reduce complexitatea, utilizarea unor filtre pentru a reduce zgomotul ce poate afecta calitatea detectarii miscarii si ajustarea valorilor de intensitate pentru a avea o imagine mai uniforma si a elimina efectele cauzate de variatii in iluminare
 2. Extragere perechi de cadre stereo si alinierea punctelor corespondente pe linnii orizontale, calculul disparitatii si adancimea pentru fiecare punct.Identificarea punctelor corespondente între cele două imagini. Pentru fiecare pixel din imaginea stângă se caută pixelul corespunzător din imaginea dreaptă, rezultând harta de disparitate, care reprezintă diferențele de poziție ale punctelor între cele două imagini.
 3. Calcul optical flow pentru a estima miscarea intre cadre consecutive
 4. Combinarea datelor obtinute prin disparitate si optical low pentru a determina miscarea 3D a obiectelor in scena
-5. Aplicarea filtrelor de netezire pentru a elimina variatiile de miscare nejustificate si zgomotul de calcul 
+5. Aplicarea filtrelor de netezire pentru a elimina variatiile de miscare nejustificate si zgomotul de calcul
 6. Segmentarea obiectelor care se misca in scena
 7. Reprezentare vizuala a miscarii prin sageti vectoriale sau harti de culori pentru a verifica acuratetea algoritmului
