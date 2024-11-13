@@ -1,0 +1,9 @@
+﻿  function.cpp
+C:\Users\BRAN IOANA ANDREEA\Downloads\Project1functiobil3\Project1\Project1\function.cpp(64,21): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1252)
+  main.cpp
+  Generating code
+  123 of 123 functions (100.0%) were compiled.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project1.vcxproj -> C:\Users\BRAN IOANA ANDREEA\Downloads\Project1functiobil3\Project1\x64\Release\Project1.exe
